@@ -14,7 +14,7 @@ A professional Selenium-based test automation framework for e-commerce applicati
 
 ## 🛠️ Tech Stack
 - **Programming Language**: Python 3.8+
-- **Automation Tool**: Selenium WebDriver 4.x
+- **Automation Tool**: Selenium WebDriver 4
 - **Test Framework**: Pytest
 - **Reporting**: Pytest-html, Allure
 - **Driver Management**: WebDriver Manager
