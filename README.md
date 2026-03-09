@@ -1,21 +1,30 @@
-# 🛍️ Complete E-Commerce Test Automation Framework
+# 🛒 E-Commerce Test Automation Framework
 
-## 📊 Project Overview
-A professional Selenium-based test automation framework for e-commerce applications, specifically implemented for SauceDemo website. This framework automates complete shopping workflows using Python, Pytest, and Page Object Model design pattern.
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green)
+![Pytest](https://img.shields.io/badge/Pytest-Framework-yellow)
 
-## 🎯 Key Features
-- ✅ **Complete E-commerce Workflow**: Login → Browse → Cart → Checkout
-- ✅ **Page Object Model**: Maintainable and scalable architecture
-- ✅ **Cross-Browser Testing**: Chrome, Firefox, Edge support
-- ✅ **Data-Driven Testing**: JSON/CSV test data support
-- ✅ **Automated Reporting**: HTML reports with screenshots
-- ✅ **CI/CD Ready**: GitHub Actions/Jenkins integration
-- ✅ **Parallel Execution**: Faster test execution with pytest-xdist
+End-to-end automation framework for e-commerce web testing 
+using Selenium WebDriver with Page Object Model design pattern.
+
+## 📁 Project Structure
+├── pages/       # Page Object Model classes
+├── tests/       # Test cases
+├── config/      # Configuration files
+├── utils/       # Helper functions
+└── conftest.py  # Pytest fixtures
+
+## 🚀 How to Run
+pip install -r requirements.txt
+pytest tests/ -v
+
+## ✅ Test Coverage
+- Login & Authentication
+- Product Search
+- Cart Operations
+- Checkout Flow
 
 ## 🛠️ Tech Stack
-- **Programming Language**: Python 3.8+
-- **Automation Tool**: Selenium WebDriver 4
-- **Test Framework**: Pytest
-- **Reporting**: Pytest-html, Allure
-- **Driver Management**: WebDriver Manager
-- **Version Control**: Git & GitHub
+- Python | Selenium WebDriver
+- Pytest | Page Object Model
+- CI/CD Ready
