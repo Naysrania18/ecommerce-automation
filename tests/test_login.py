@@ -25,3 +25,10 @@ class TestLogin:
         error_message = login_page.get_error_message()
         assert "locked out" in error_message.lower()
         print(f"✅ Locked user error: {error_message}")
+
+    def test_empty_login(self, driver):
+        login_page = LoginPage(driver)
+        login_page.login("", "")
+        error_message = login_page.get_error_message()
+        assert error_message is not None
+        print(f"✅ Empty login error: {error_message}")
