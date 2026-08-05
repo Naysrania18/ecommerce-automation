@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Test Automation Framework
+# 🛒 E-Commerce Test Automation Framework.
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
 ![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green)
